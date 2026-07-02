@@ -427,9 +427,9 @@ const BillScanner = () => {
         {/* Trigger Controls & Progress logs */}
         <div className="flex flex-col justify-between rounded-3xl border border-slate-200/80 bg-white p-6 shadow-sm">
           <div className="space-y-4">
-            <h3 className="text-sm font-bold text-slate-800">OCR Settings</h3>
+            <h3 className="text-sm font-bold text-slate-800">Scan Bill Details</h3>
             <p className="text-xs text-slate-400 font-medium leading-relaxed">
-              Tesseract.js will analyze the layout structure of the bill, extract characters using optical recognition, and map matching names, quantities, batches, and prices.
+              Select an invoice image and click "Scan Bill Details" to extract medicine information. You can edit or add items before saving to the database.
             </p>
             
             {scanning && (
